@@ -7,12 +7,11 @@ function cSharp (num1, num2, num3) {
 }
 
 $(document).ready(function() {
-  $("button#submit").click(function() {
+  $("button#submit").submit(function() {
     event.preventDefault();
 
 
 // User interface logic
-    const flavor = $("input:[name=exampleradios]:checked").val();
 
     const question1Input = $("select#question1").val();
     const question2Input = $("select#question1").val();
