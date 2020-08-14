@@ -9,7 +9,12 @@ function cSharp (num1, num2, num3, num4, num5) {
 $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
-
+  $("#secondary").click(function() {
+    $("#result").hide();
+    $("#story").hide();
+    $("#form").show();
+    $("button#submit").show();
+    $("button#secondary").hide();
 
 // User interface logic
 
@@ -18,7 +23,7 @@ $(document).ready(function() {
     const question3Input = parseInt($("#question3").val());
     const question4Input = parseInt($("#question4").val());
     const question5Input = parseInt($("#question5").val());
-    const inputtedName = $("#name")
+    const inputtedName = $("#name").val();
     
     if (cSharp(question1Input, question2Input, question3Input, question4Input, question5Input)) {
       $("#result").text("C#");
@@ -30,5 +35,6 @@ $(document).ready(function() {
       $("#story").show();
     }
     
+    });
   });
 });
