@@ -13,15 +13,19 @@ $(document).ready(function() {
 
 // User interface logic
 
-    const question1Input = parseInt$("#question1").val();
-    const question2Input = parseInt$("#question2").val();
-    const question3Input = parseInt$("#question3").val();
-    const question4Input = parseInt$("#question4").val();
-    const question5Input = parseInt$("#question5").val();
-
+    const question1Input = parseInt($("#question1").val());
+    const question2Input = parseInt($("#question2").val());
+    const question3Input = parseInt($("#question3").val());
+    const question4Input = parseInt($("#question4").val());
+    const question5Input = parseInt($("#question5").val());
+    const inputtedName = $("#name")
+    
     if (cSharp(question1Input, question2Input, question3Input, question4Input, question5Input)) {
       $("#result").text("C#");
+      $("#story").show();
       $("#form").hide();
+      $("button#secondary").show();
+      $("#nameInput").text(inputtedName);
     } else {
       $("#story").show();
     }
