@@ -2,6 +2,30 @@
   margin-top: 20px;
 }
 
-h2 {
-  margin-bottom: 20px;
+h4 {
+  margin-bottom: 40px;
+}
+.question-gray {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.question {
+  margin-bottom: 35px;
+}
+
+.question-gray {
+  background-color: #e9ecef;
+  padding: 5px, 0px, 5px, 0px;
+  border-radius: 5px;
+
+}
+select {
+  margin-left: 10px;
+}
+select.select-gray {
+margin-bottom: 10px;
+}
+label {
+  margin: 10px 0px 10px 10px;
+
 }

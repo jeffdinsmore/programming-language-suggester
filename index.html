@@ -14,34 +14,39 @@
     </div>
     <h4>Fill out the questionnaire to see your answer.</h4>
     <form id="form">
-      <label for="name">What is your name?</label>
-      <input id="name" type="text">
       <p>
-        <label for="age">What is your age?</label>
-        <br>
-        <select id="age">
-          <option value="young">18-30</option>
-          <option value="youngish">31-40</option>
-          <option value="older">41-55</option>
-          <option value="wise">56+</option>
-        </select>
+        <label for="name">What is your name?</label>
+        <input id="name" type="text">
       </p>
-      <br>
-      <label for="musical">What instrument do you play?</label><br>
-      <select id="musical">
-        <option value="sax">Saxophone</option>
-        <option value="flute">Flute</option>
-        <option value="singer">Singer</option>
-        <option value="trombone">Trombone</option>
+<!-- question 1 -->
+      <div class="question-gray">
+        <label for="question1">Do you value efficiency?</label>
+        <br>
+        <select class="select-gray" id="question1">
+          <option value="yes1">yes</option>
+          <option  value="no1">no</option>
+        </select>
+      </div>
+<!-- question 2 -->
+      <div class="question">
+      
+      <label for="question2">What is your favorite morning breakfast?</label><br>
+      <select id="question2">
+        <option value="fruits">Fruits & veggies</option>
+        <option value="eggs">Eggs & toast</option>
+        <option value="cereal">Cereal</option>
+        <option value="trombone">Avocado toast</option>
         <option value="none">None</option>
       </select>
-    <br>
+    </div>
+    <div class="question-gray">
     <label for="leadership">Do you often take command in tough situations?</label>
-    <select id="leadership">
+    <br>
+    <select class="select-gray" id="leadership">
       <option value="no">No</option>
       <option value="yes">Yes</option>
     </select>
-    <br>
+    </div>>
       <label for="holodeck">How much time do you spend  on the holodeck per week?</label>
       <select id="holodeck">
       <option value="low">I pop in for a minute</option>
