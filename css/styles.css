@@ -1,6 +1,8 @@
+#complete {
+  display: none;
+}
 
-
-h4 {
+h4, h3 {
   margin-bottom: 40px;
 }
 .question {
@@ -35,7 +37,9 @@ button#submit, button#secondary {
 }
 
 #result {
-  font-size: 30px;
+  font-size: 36px;
+  margin: 20px 0px 10px 0px;
+  font-style: italic;
 }
 #story {
   display: none;

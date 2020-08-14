@@ -9,12 +9,8 @@ function cSharp (num1, num2, num3, num4, num5) {
 $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
-  $("#secondary").click(function() {
-    $("#result").hide();
-    $("#story").hide();
-    $("#form").show();
-    $("button#submit").show();
-    $("button#secondary").hide();
+  
+    
 
 // User interface logic
 
@@ -31,10 +27,13 @@ $(document).ready(function() {
       $("#form").hide();
       $("button#secondary").show();
       $("#nameInput").text(inputtedName);
+      $("#complete").show();
+      $("#fillOut").hide();
     } else {
       $("#story").show();
     }
-    
+    $("#secondary").click(function() {
+      location.reload();
     });
   });
 });
