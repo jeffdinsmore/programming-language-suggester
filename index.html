@@ -14,71 +14,69 @@
     </div>
     <h4>Fill out the questionnaire to see your answer.</h4>
     <form id="form">
-      <p>
+      <div class="name">
         <label for="name">What is your name?</label>
         <input id="name" type="text">
-      </p>
+      </div>
 <!-- question 1 -->
       <div class="question-gray">
         <label for="question1">Do you value efficiency?</label>
         <br>
         <select class="select-gray" id="question1">
+          <option value="selectOne">Please Select</option>
           <option value="yes1">yes</option>
           <option  value="no1">no</option>
         </select>
       </div>
 <!-- question 2 -->
       <div class="question">
-      
-      <label for="question2">What is your favorite morning breakfast?</label><br>
-      <select id="question2">
-        <option value="fruits">Fruits & veggies</option>
-        <option value="eggs">Eggs & toast</option>
-        <option value="cereal">Cereal</option>
-        <option value="trombone">Avocado toast</option>
-        <option value="none">None</option>
-      </select>
-    </div>
-    <div class="question-gray">
-    <label for="leadership">Do you often take command in tough situations?</label>
-    <br>
-    <select class="select-gray" id="leadership">
-      <option value="no">No</option>
-      <option value="yes">Yes</option>
-    </select>
-    </div>>
-      <label for="holodeck">How much time do you spend  on the holodeck per week?</label>
-      <select id="holodeck">
-      <option value="low">I pop in for a minute</option>
-      <option value="moderate">I vacation there</option>
-      <option value="moderate-high">I write my own programs</option>
-      <option value="high">I can't get away</option>
-      <option value="none2">Only if ordered to</option>
-      </select>
-      <fieldset id="group1">
-        <p>What type of car do you like?</p>
-        <div class="form-check">
-        <input type="radio" value="option1" name="group1">
-        <label class="form-check-label" for="exampleRadios1">
-          Second default radio</label>
-          </div>
-          <div class="form-check">
-        <input type="radio" value="option2" name="group1">
-        <label class="form-check-label" for="exampleRadios2">
-          Second default radio</label>
+        <label for="question2">What is your favorite morning breakfast?</label>
+        <br>
+        <select id="question2">
+          <option value="selectOne">Please Select</option>
+          <option value="fruits">Fruits & veggies</option>
+          <option value="eggs">Eggs & toast</option>
+          <option value="cereal">Cereal</option>
+          <option value="trombone">Avocado toast</option>
+          <option value="none">None</option>
+        </select>
       </div>
-      </fieldset>
-    
-      <fieldset id="group2">
-        <p>What type of car do you like?</p>
-        <div class="form-check">
-        <input type="radio" value="value1" name="group2">
-        <input type="radio" value="value2" name="group2">
-        <input type="radio" value="value3" name="group2">
+<!-- quesiton 3 -->
+      <div class="question-gray">
+        <label for="question3">Do you often take command in tough situations?</label>
+        <br>
+        <select class="select-gray" id="question3">
+          <option value="selectOne">Please Select</option>
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
       </div>
-      
-        </fieldset>
-      
+<!-- question 4 -->
+      <div class="question">
+        <label for="question4">How challenging do you like things to be?</label>
+        <br>
+        <select id="question4">
+          <option value="selectOne">Please Select</option>
+          <option value="low">I like to put in minimal effort</option>
+          <option value="moderate">I can stand a challenge or two</option>
+          <option value="moderate-high">A lot of my day is finding problems to solve</option>
+          <option value="high">I am a problem solving machine</option>
+        </select>
+      </div>
+<!-- question 5 -->
+      <div class="question-gray">
+        <label for="question5">Where do you sing the most?</label>
+        <br>
+        <select class="select-gray" id="question5">
+          <option value="selectOne">Please Select</option>
+          <option value="opera">In an opera house</option>
+          <option value="shower">In the shower</option>
+          <option value="car">In the car</option>
+          <option value="living-room">In my living room</option>
+          <option value="all-the-above">All the above</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-success" id="submit">Submit</button>
     </form>
   </div>
 </body>
