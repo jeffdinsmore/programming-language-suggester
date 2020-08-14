@@ -29,7 +29,20 @@ label {
   margin: 20px 0px 10px 20px;
 }
 
-button#submit {
+button#submit, button#secondary {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#result {
+  font-size: 30px;
+}
+#story {
+  display: none;
+}
+button#secondary {
+  display: none;
+}
+footer{
+  height: 60px;
 }
