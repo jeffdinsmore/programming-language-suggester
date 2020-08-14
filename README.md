@@ -6,7 +6,7 @@
 
 ## Description
 
-This website asks five questions to help someone determine what programming language they would like to learn. The results only give five different answer of programming languages
+This website asks five questions to help someone determine what programming language they would like to learn. The results only give four different answer of programming languages
 
 ## Setup/Installation Requirements
 
