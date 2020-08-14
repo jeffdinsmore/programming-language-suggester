@@ -24,14 +24,11 @@ function Python (num1, num2, num3, num4, num5) {
   }
 }
 
+// User interface logic
 $(document).ready(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
-  
     
-
-// User interface logic
-
     const question1Input = parseInt($("#question1").val());
     const question2Input = parseInt($("#question2").val());
     const question3Input = parseInt($("#question3").val());

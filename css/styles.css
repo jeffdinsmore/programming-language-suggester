@@ -14,7 +14,7 @@ h4, h3 {
 }
 
 .question-gray {
-  background-color: #e9ecef;
+  background-color: #ebf0ee;
   padding: 5px, 0px, 5px, 0px;
   border-radius: 5px;
   margin-bottom: 10px;
@@ -49,4 +49,8 @@ button#secondary {
 }
 footer{
   height: 60px;
+}
+
+.jumbotron {
+  background-color: #ebf0ee;
 }
