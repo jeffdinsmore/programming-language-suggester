@@ -7,7 +7,7 @@ function cSharp (num1, num2, num3, num4, num5) {
 }
 
 $(document).ready(function() {
-  $("button#submit").submit(function(event) {
+  $("#form").submit(function(event) {
     event.preventDefault();
 
 
@@ -21,8 +21,8 @@ $(document).ready(function() {
 
     if (cSharp(question1Input, question2Input, question3Input, question4Input, question5Input)) {
       $("#result").text("C#");
-      $("form#form").hide();
-    } else if ( joe === "") {
+      $("#form").hide();
+    } else {
       $("#story").show();
     }
     
