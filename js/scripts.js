@@ -38,7 +38,7 @@ $(document).ready(function() {
     const inputtedName = $("#name").val();
     
     if (question1Input === 0 || question2Input === 0 || question3Input === 0 || question4Input === 0 || question5Input === 0 || question6Input === 0) {
-      $("#result").text("Please answer all the questions before submitting");
+      alert("Please answer all the questions before submitting");
     } else if (cSharp(question1Input, question2Input, question3Input, question4Input, question5Input)) {
       $("#result").text("C#");
       $("#story").show();
