@@ -51,7 +51,7 @@ button#submit, button#secondary {
 button#secondary {
   display: none;
 }
-footer{
+footer, header {
   height: 60px;
 }
 
