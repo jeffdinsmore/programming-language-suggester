@@ -61,3 +61,6 @@ footer, header {
   border: 1px solid #BFBFBF;
   box-shadow: 10px 10px 5px #aaaaaa;
 }
+.error {
+  outline: 1px solid red;
+}
