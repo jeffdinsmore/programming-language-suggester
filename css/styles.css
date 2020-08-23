@@ -47,12 +47,13 @@ button#submit, button#secondary {
 }
 #story {
   display: none;
+  font-size: 20px;
 }
 button#secondary {
   display: none;
 }
 footer, header {
-  height: 60px;
+  height: 40px;
 }
 
 .jumbotron {
