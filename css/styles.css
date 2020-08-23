@@ -12,7 +12,9 @@ h4, h3 {
 .labelName {
   margin-bottom: 30px;
 }
-
+p {
+  font-family: arial;
+}
 .question-gray {
   background-color: #ebf0ee;
   padding: 5px, 0px, 5px, 0px;
@@ -63,4 +65,8 @@ footer, header {
 }
 .error {
   outline: 1px solid red;
+}
+
+#nameInput {
+  font-style: italic;
 }
