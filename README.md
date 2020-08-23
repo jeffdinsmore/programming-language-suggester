@@ -6,12 +6,12 @@
 
 ## Description
 
-This website asks five questions to help someone determine what programming language they would like to learn. The results only give four different answer of programming languages
+This website asks six questions to help someone determine what programming language they would like to learn. The questions are satirical and not meant to give a realistically answer. The result only gives four different answers of programming languages.
 
 ## Setup/Installation Requirements
 
 * Clone this repository.
-* In the cloned folder, double click on index or index.html. If the file doesn't open, right click on index or index.html and "open with" your browser of choice._
+* In the cloned folder, double click on index or index.html. If the file doesn't open, right click on index or index.html and "open with" your browser of choice.
 
 ## Support and contact details
 
