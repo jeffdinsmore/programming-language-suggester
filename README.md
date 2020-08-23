@@ -28,4 +28,5 @@ Any known issues, please reach out to Jeff Dinsmore by email at hello@jeffdinsmo
 ### License
 
 Copyright (c) 2020 Jeff Dinsmore
+
 This software is licensed under the MIT license.
