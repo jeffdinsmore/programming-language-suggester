@@ -6,7 +6,7 @@
 
 ## Description
 
-This website asks six questions to help someone determine what programming language they would like to learn. The questions are satirical and not meant to give a realistically answer. The result only gives four different answers of programming languages.
+This website asks six questions to help someone determine what programming language they would like to learn. The questions are satirical and not meant to give a realistic answer. The result only gives four different answers of programming languages.
 
 ## Setup/Installation Requirements
 
